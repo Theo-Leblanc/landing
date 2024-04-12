@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #009688;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 10%;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.intro, .features {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00796b;
+}
